@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textSize="40dp"
+        android:text="X"
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:text="授業名："/>
+
+    <EditText
+        android:id="@+id/subjectname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:textSize="40dp"
+    android:text="教員名："/>
+
+    <EditText
+        android:id="@+id/teachername"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:text="教室名："/>
+
+    <EditText
+        android:id="@+id/roomname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:text="授業種類："/>
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="保存する"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="クリアする"
+        android:background="#ff0000"
+        android:textSize="30dp" />
+
+</LinearLayout>
